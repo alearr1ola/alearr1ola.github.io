@@ -1,0 +1,79 @@
+body {
+    background-color: snow;
+    align-items: center;
+}
+
+#usuario:invalid {
+    border-radius: 5px;
+    border: 2px solid orange;
+    background-color: aliceblue;
+}
+
+#usuario:valid {
+    border-radius: 5px;
+    border: 2px solid green;
+    background-color: aliceblue;
+}
+
+#edad:invalid {
+    border-radius: 5px;
+    border: 2px solid orange;
+    background-color: aliceblue;
+}
+
+#edad:valid {
+    border-radius: 5px;
+    border: 2px solid green;
+    background-color: aliceblue;
+}
+
+#pais:invalid {
+    border-radius: 5px;
+    border: 2px solid orange;
+    background-color: aliceblue;
+}
+
+#pais:valid {
+    border-radius: 5px;
+    border: 2px solid green;
+    background-color: aliceblue;
+}
+
+#comentarios:focus {
+    border-radius: 5px;
+    border: 2px solid dodgerblue;
+    background-color: aliceblue;
+    outline: none;
+}
+
+input[type="radio"]:checked + label {
+    color: green;
+    font-weight: bold;
+}
+
+input[type="checkbox"]:checked + label {
+    color: green;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: steelblue;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: royalblue;
+}
+
+form {
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px lightgray;
+}
